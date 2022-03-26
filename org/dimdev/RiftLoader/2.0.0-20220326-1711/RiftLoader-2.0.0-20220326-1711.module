@@ -1,0 +1,369 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.dimdev",
+    "module": "RiftLoader",
+    "version": "2.0.0-20220326-1711",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "RiftLoader-2.0.0-20220326-1711.jar",
+          "url": "RiftLoader-2.0.0-20220326-1711.jar",
+          "size": 29826,
+          "sha512": "c22ca2846e9ba0f626c4704ccf4071824a828de8ec1072f659e14e4f6fe34946aa31c7a6d27059f51a64ac47b5d39ad4d5ca6cfd257a71392953f7deb4b6c7f8",
+          "sha256": "b662edf325ffbbe2f9916da5777b01923f3011a1656bf60310c0ad10bea02bc8",
+          "sha1": "8addec57ecc7c06eac79001a5dc81c0e6e846246",
+          "md5": "0c9831f4908bfe9f6a6ecb5b571aa7ac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "cn.enaium",
+          "module": "launchwrapper",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "org.spongepowered",
+          "module": "mixin",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "patchy",
+          "version": {
+            "requires": "1.3.9"
+          }
+        },
+        {
+          "group": "oshi-project",
+          "module": "oshi-core",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "jna",
+          "version": {
+            "requires": "4.4.0"
+          }
+        },
+        {
+          "group": "net.java.dev.jna",
+          "module": "platform",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "com.ibm.icu",
+          "module": "icu4j",
+          "version": {
+            "requires": "66.1"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "javabridge",
+          "version": {
+            "requires": "1.0.22"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.3"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-all",
+          "version": {
+            "requires": "4.1.25.Final"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "21.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.5"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.5"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.10"
+          }
+        },
+        {
+          "group": "net.java.jinput",
+          "module": "jinput",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "net.java.jutils",
+          "module": "jutils",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "brigadier",
+          "version": {
+            "requires": "1.0.17"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "datafixerupper",
+          "version": {
+            "requires": "4.0.26"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "authlib",
+          "version": {
+            "requires": "2.1.28"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.3.3"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.1.3"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.3.2"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil",
+          "version": {
+            "requires": "8.2.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jemalloc",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-openal",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-tinyfd",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "com.mojang",
+          "module": "text2speech",
+          "version": {
+            "requires": "1.11.3"
+          }
+        },
+        {
+          "group": "ca.weblite",
+          "module": "java-objc-bridge",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "RiftLoader-2.0.0-20220326-1711.jar",
+          "url": "RiftLoader-2.0.0-20220326-1711.jar",
+          "size": 29826,
+          "sha512": "c22ca2846e9ba0f626c4704ccf4071824a828de8ec1072f659e14e4f6fe34946aa31c7a6d27059f51a64ac47b5d39ad4d5ca6cfd257a71392953f7deb4b6c7f8",
+          "sha256": "b662edf325ffbbe2f9916da5777b01923f3011a1656bf60310c0ad10bea02bc8",
+          "sha1": "8addec57ecc7c06eac79001a5dc81c0e6e846246",
+          "md5": "0c9831f4908bfe9f6a6ecb5b571aa7ac"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "RiftLoader-2.0.0-20220326-1711-sources.jar",
+          "url": "RiftLoader-2.0.0-20220326-1711-sources.jar",
+          "size": 14053,
+          "sha512": "387986341e7f21ebbafc87d4855530be625d4902d6257ff6933f23f74cadbdcadbc80bd5998b58c0445af0fc693c3f37f0a0cc3c1f60be6a05c5c4a54c8f3772",
+          "sha256": "0ed90c7a55debce9ba5e60b74f6f7e5a358de758226be3ee43dc525c24f8977a",
+          "sha1": "8531d357bf21824373b37036d76044bb237258f0",
+          "md5": "7a62a881f4c55aff481b02bf55a0b976"
+        }
+      ]
+    }
+  ]
+}
