@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.cliffhangermc",
+    "module": "Cliff",
+    "version": "1.0.0-20220403-2110",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Cliff-1.0.0-20220403-2110.jar",
+          "url": "Cliff-1.0.0-20220403-2110.jar",
+          "size": 43090,
+          "sha512": "f9fd8760870bad64eaba6444cc345c006692ec34fb5ac3ea39536611d85324c1c5eb61ff1090a61fa350557c2ddc5637c59d3d9e3603eb52907b89e6996f9d43",
+          "sha256": "f1c4444b8a2c8aa4166b6ae7da0f8197262ca1d598fecb20ec9adc2731b604e9",
+          "sha1": "062bda99fb4aeea051ccc545d2a4fc074e163834",
+          "md5": "709997743ea79e1f43a23442a458246d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Cliff-1.0.0-20220403-2110.jar",
+          "url": "Cliff-1.0.0-20220403-2110.jar",
+          "size": 43090,
+          "sha512": "f9fd8760870bad64eaba6444cc345c006692ec34fb5ac3ea39536611d85324c1c5eb61ff1090a61fa350557c2ddc5637c59d3d9e3603eb52907b89e6996f9d43",
+          "sha256": "f1c4444b8a2c8aa4166b6ae7da0f8197262ca1d598fecb20ec9adc2731b604e9",
+          "sha1": "062bda99fb4aeea051ccc545d2a4fc074e163834",
+          "md5": "709997743ea79e1f43a23442a458246d"
+        }
+      ]
+    }
+  ]
+}
