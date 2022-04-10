@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.pkstdev",
+    "module": "Weasel",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Weasel-1.0-SNAPSHOT.jar",
+          "url": "Weasel-1.0-SNAPSHOT.jar",
+          "size": 50384,
+          "sha512": "30f293cacb1dcb4935a4bc069272cdc05e26344cac0d4851ab70a27777f69f6db8ff7dfe42b8b294d24311856a071c615323983b7377db18a953f8a6c2031b54",
+          "sha256": "6de8981b8ba25742cd58c8b4ebcd4d19c19f7aebade020a5adea3f06adb0f3c9",
+          "sha1": "8e8bef5ecd4208810ed533ed3b84b65fc8d768e0",
+          "md5": "c964d4048248fba9d380d990643256d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "Weasel-1.0-SNAPSHOT.jar",
+          "url": "Weasel-1.0-SNAPSHOT.jar",
+          "size": 50384,
+          "sha512": "30f293cacb1dcb4935a4bc069272cdc05e26344cac0d4851ab70a27777f69f6db8ff7dfe42b8b294d24311856a071c615323983b7377db18a953f8a6c2031b54",
+          "sha256": "6de8981b8ba25742cd58c8b4ebcd4d19c19f7aebade020a5adea3f06adb0f3c9",
+          "sha1": "8e8bef5ecd4208810ed533ed3b84b65fc8d768e0",
+          "md5": "c964d4048248fba9d380d990643256d7"
+        }
+      ]
+    }
+  ]
+}
